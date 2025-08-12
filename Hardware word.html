@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hardware Specs</title>
+    <style>
+        /* aqui vaio CSS que te passei */
+   
+    <!-- conteúdo aqui -->
+
+
+   /* Fonte elegante no estilo Apple */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.hardware-banner {
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hardware-banner h1 {
+    margin: 0 0 10px;
+    font-size: 2.5rem;
+}
+.hardware-banner p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+/* Barra de pesquisa */
+.search-container {
+    display: flex;
+    gap: 8px;
+}
+
+.search-container input {
+    padding: 8px 12px;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    outline: none;
+    background: #fff;
+    transition: 0.2s;
+    font-size: 0.95rem;
+    width: 200px;
+}
+
+.search-container input:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 2px rgba(0, 113, 227, 0.2);
+}
+
+.search-container button {
+    background: #0071e3;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.search-container button:hover {
+    background: #005bb5;
+}
+
+/* Container de cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+/* Caixas (game box adaptadas) */
+.game-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.game-box h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+
+.game-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.game-box li {
+    margin: 6px 0;
+    font-size: 0.92rem;
+    color: #555;
+}
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hardware Specs</h1>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Buscar hardware..." />
+            <button onclick="searchItem()">Buscar</button>
+        </div>
+    </header>
+           <div class="hardware-banner">
+  <h1>Hardware de Alta Performance</h1>
+  <p>Explore os melhores processadores, GPUs e componentes do mercado.</p>
+</div>
+
+    <main>
+        <section class="cards-container">
+
+            <div class="game-box" data-name="NVIDIA GeForce RTX 3080">
+                <h2>NVIDIA GeForce RTX 3080</h2>
+                <ul>
+                    <li>Memória: 10 GB GDDR6X</li>
+                    <li>Clock: 1.71 GHz</li>
+                    <li>TDP: 320W</li>
+                </ul>
+            </div>
+           
+            
+  <div class="game-box" data-name="Samsung Galaxy Z Fold5">
+  <h2>Samsung Galaxy Z Fold5</h2>
+  <ul>
+    <li><strong>Processador:</strong> Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 12 GB</li>
+    <li><strong>Armazenamento:</strong> 256 GB / 512 GB / 1 TB</li>
+    <li><strong>Tela:</strong> 7.6" Foldable Dynamic AMOLED 2X, 120 Hz (interna) + 6.2" AMOLED, 120 Hz (externa)</li>
+    <li><strong>Bateria:</strong> 4.400 mAh</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP + 10 MP Telefoto + 12 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~1.150.000+</li>
+    <li><strong>Lançamento:</strong> Agosto 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="iPhone 15">
+  <h2>iPhone 15</h2>
+  <ul>
+    <li><strong>Processador:</strong> Apple A16 Bionic (4nm, 6 núcleos)</li>
+    <li><strong>RAM:</strong> 6 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB</li>
+    <li><strong>Tela:</strong> 6.1" OLED Super Retina XDR, 60 Hz</li>
+    <li><strong>Bateria:</strong> Aproximadamente 3.400 mAh</li>
+    <li><strong>Câmeras:</strong> Dupla 48 MP + 12 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~1.100.000+</li>
+    <li><strong>Lançamento:</strong> Setembro 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Samsung Galaxy A54 5G">
+  <h2>Samsung Galaxy A54 5G</h2>
+  <ul>
+    <li><strong>Processador:</strong> Exynos 1380 (5nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 6 GB / 8 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB</li>
+    <li><strong>Tela:</strong> 6.4" Super AMOLED, 120 Hz</li>
+    <li><strong>Bateria:</strong> 5.000 mAh</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP + 12 MP Ultra-wide + 5 MP Macro</li>
+    <li><strong>Antutu Score:</strong> ~550.000+</li>
+    <li><strong>Lançamento:</strong> Março 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Google Pixel 7a">
+  <h2>Google Pixel 7a</h2>
+  <ul>
+    <li><strong>Processador:</strong> Google Tensor G2 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB</li>
+    <li><strong>Tela:</strong> 6.1" OLED, 90 Hz</li>
+    <li><strong>Bateria:</strong> Aproximadamente 4.300 mAh</li>
+    <li><strong>Câmeras:</strong> Dupla 64 MP + 13 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~900.000+</li>
+    <li><strong>Lançamento:</strong> Maio 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Xiaomi Redmi Note 12 Pro+ 5G">
+  <h2>Xiaomi Redmi Note 12 Pro+ 5G</h2>
+  <ul>
+    <li><strong>Processador:</strong> MediaTek Dimensity 1080 (6nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB / 12 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB</li>
+    <li><strong>Tela:</strong> 6.67" AMOLED, 120 Hz</li>
+    <li><strong>Bateria:</strong> 4.500 mAh, carga rápida 120W</li>
+    <li><strong>Câmeras:</strong> Tripla 200 MP + 8 MP Ultra-wide + 2 MP Macro</li>
+    <li><strong>Antutu Score:</strong> ~520.000+</li>
+    <li><strong>Lançamento:</strong> Fevereiro 2023</li>
+  </ul>
+</div>          
+            
+             <!-- iPhone 15 Pro Max -->
+<div class="game-box" data-name="iPhone 15 Pro Max">
+  <h2>iPhone 15 Pro Max</h2>
+  <ul>
+    <li><strong>Processador:</strong> Apple A17 Pro (3nm, 6 núcleos – 2 desempenho + 4 eficiência)</li>
+    <li><strong>GPU:</strong> Apple 6-core custom GPU</li>
+    <li><strong>RAM:</strong> 8 GB LPDDR5</li>
+    <li><strong>Armazenamento:</strong> 256 GB / 512 GB / 1 TB NVMe</li>
+    <li><strong>Tela:</strong> 6.7" OLED Super Retina XDR, ProMotion 120 Hz, HDR10, 2000 nits (pico)</li>
+    <li><strong>Bateria:</strong> ~4.400 mAh, carregamento MagSafe 15W, USB-C 20W</li>
+    <li><strong>Câmeras:</strong> Traseira tripla: 48 MP (wide, ƒ/1.78, OIS) + 12 MP Telefoto 5x (ƒ/2.8, OIS) + 12 MP Ultra-wide (ƒ/2.2)</li>
+    <li><strong>Sistema Operacional:</strong> iOS 17</li>
+    <li><strong>Antutu Score:</strong> ~1,200,000+</li>
+    <li><strong>Lançamento:</strong> Setembro 2023</li>
+    <li><strong>Outros:</strong> Ação Titan 2 para segurança, Dynamic Island, Ceramic Shield, IP68</li>
+  </ul>
+</div>
+<div class="game-box" data-name="iPhone 15 Pro Max">
+  <h2>iPhone 15 Pro Max</h2>
+  <ul>
+    <li><strong>Processador:</strong> Apple A17 Pro (3nm, 6 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB</li>
+    <li><strong>Armazenamento:</strong> 256/512 GB, 1 TB</li>
+    <li><strong>Tela:</strong> 6.7" OLED Super Retina XDR, 120 Hz</li>
+    <li><strong>Bateria:</strong> Aproximadamente 4.400 mAh</li>
+    <li><strong>Câmeras:</strong> Tripla 48 MP + Tele 12 MP + Ultra-wide 12 MP</li>
+    <li><strong>Antutu Score:</strong> ~1.200.000+</li>
+    <li><strong>Lançamento:</strong> Setembro 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Samsung Galaxy S23 Ultra">
+  <h2>Samsung Galaxy S23 Ultra</h2>
+  <ul>
+    <li><strong>Processador:</strong> Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB / 12 GB</li>
+    <li><strong>Armazenamento:</strong> 256 GB / 512 GB / 1 TB</li>
+    <li><strong>Tela:</strong> 6.8" Dynamic AMOLED 2X, 120 Hz, QHD+</li>
+    <li><strong>Bateria:</strong> 5.000 mAh</li>
+    <li><strong>Câmeras:</strong> Quad 200 MP + 10 MP Telefoto + 10 MP Telefoto + 12 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~1.150.000+</li>
+    <li><strong>Lançamento:</strong> Fevereiro 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Google Pixel 8 Pro">
+  <h2>Google Pixel 8 Pro</h2>
+  <ul>
+    <li><strong>Processador:</strong> Google Tensor G3 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 12 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB</li>
+    <li><strong>Tela:</strong> 6.7" LTPO OLED, 120 Hz</li>
+    <li><strong>Bateria:</strong> Aproximadamente 5.000 mAh</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP + 48 MP Telefoto + 12 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~850.000+</li>
+    <li><strong>Lançamento:</strong> Outubro 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="OnePlus 11">
+  <h2>OnePlus 11</h2>
+  <ul>
+    <li><strong>Processador:</strong> Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB / 16 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB</li>
+    <li><strong>Tela:</strong> 6.7" AMOLED, 120 Hz, QHD+</li>
+    <li><strong>Bateria:</strong> 5.000 mAh, carga rápida 100W</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP + 32 MP Telefoto + 48 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~1.150.000+</li>
+    <li><strong>Lançamento:</strong> Janeiro 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Xiaomi 13 Pro">
+  <h2>Xiaomi 13 Pro</h2>
+  <ul>
+    <li><strong>Processador:</strong> Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>RAM:</strong> 8 GB / 12 GB</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB</li>
+    <li><strong>Tela:</strong> 6.73" AMOLED, 120 Hz, QHD+</li>
+    <li><strong>Bateria:</strong> 4.820 mAh, carga rápida 120W</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP (Leica) + 50 MP Telefoto + 50 MP Ultra-wide</li>
+    <li><strong>Antutu Score:</strong> ~1.150.000+</li>
+    <li><strong>Lançamento:</strong> Dezembro 2022</li>
+  </ul>
+</div>
+<!-- Samsung Galaxy S23 Ultra -->
+<div class="game-box" data-name="Samsung Galaxy S23 Ultra">
+  <h2>Samsung Galaxy S23 Ultra</h2>
+  <ul>
+    <li><strong>Processador:</strong> Qualcomm Snapdragon 8 Gen 2 (4nm, 8 núcleos – 1 Cortex-X3 + 4 Cortex-A715 + 3 Cortex-A510)</li>
+    <li><strong>GPU:</strong> Adreno 740</li>
+    <li><strong>RAM:</strong> 8 GB / 12 GB LPDDR5X</li>
+    <li><strong>Armazenamento:</strong> 256 GB / 512 GB / 1 TB UFS 4.0</li>
+    <li><strong>Tela:</strong> 6.8" Dynamic AMOLED 2X, QHD+ 3088×1440, 120 Hz, HDR10+</li>
+    <li><strong>Bateria:</strong> 5.000 mAh, carregamento rápido 45W, carregamento sem fio 15W</li>
+    <li><strong>Câmeras:</strong> Quad: 200 MP wide (ƒ/1.7, OIS) + 10 MP telefoto 10x (ƒ/4.9, OIS) + 10 MP telefoto 3x (ƒ/2.4, OIS) + 12 MP ultra-wide (ƒ/2.2)</li>
+    <li><strong>Sistema Operacional:</strong> Android 13, One UI 5.1</li>
+    <li><strong>Antutu Score:</strong> ~1,150,000+</li>
+    <li><strong>Lançamento:</strong> Fevereiro 2023</li>
+    <li><strong>Outros:</strong> S-Pen integrada, Gorilla Glass Victus 2, IP68</li>
+  </ul>
+</div>
+
+<!-- Google Pixel 8 Pro -->
+<div class="game-box" data-name="Google Pixel 8 Pro">
+  <h2>Google Pixel 8 Pro</h2>
+  <ul>
+    <li><strong>Processador:</strong> Google Tensor G3 (4nm, 8 núcleos – 2 Cortex-X2 + 2 Cortex-A710 + 4 Cortex-A510)</li>
+    <li><strong>GPU:</strong> Mali-G710 MP7</li>
+    <li><strong>RAM:</strong> 12 GB LPDDR5X</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB UFS 3.1</li>
+    <li><strong>Tela:</strong> 6.7" LTPO OLED, QHD+, 120 Hz, HDR10+</li>
+    <li><strong>Bateria:</strong> ~5.000 mAh, carregamento rápido 30W, carregamento sem fio 23W</li>
+    <li><strong>Câmeras:</strong> 50 MP wide + 48 MP telefoto 5x + 12 MP ultra-wide</li>
+    <li><strong>Sistema Operacional:</strong> Android 14</li>
+    <li><strong>Antutu Score:</strong> ~850,000+</li>
+    <li><strong>Lançamento:</strong> Outubro 2023</li>
+    <li><strong>Outros:</strong> IP68, Titan M2 security chip</li>
+  </ul>
+</div>
+
+<!-- OnePlus 11 -->
+<div class="game-box" data-name="OnePlus 11">
+  <h2>OnePlus 11</h2>
+  <ul>
+    <li><strong>Processador:</strong> Qualcomm Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>GPU:</strong> Adreno 740</li>
+    <li><strong>RAM:</strong> 8 GB / 16 GB LPDDR5</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB UFS 4.0</li>
+    <li><strong>Tela:</strong> 6.7" AMOLED, QHD+, 120 Hz, HDR10+</li>
+    <li><strong>Bateria:</strong> 5.000 mAh, carregamento rápido 100W (0-100% em ~25 min)</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP wide + 32 MP telefoto + 48 MP ultra-wide</li>
+    <li><strong>Sistema Operacional:</strong> Android 13, OxygenOS</li>
+    <li><strong>Antutu Score:</strong> ~1,150,000+</li>
+    <li><strong>Lançamento:</strong> Janeiro 2023</li>
+    <li><strong>Outros:</strong> Alert Slider, sistema de refrigeração avançado</li>
+  </ul>
+</div>
+
+<!-- Xiaomi 13 Pro -->
+<div class="game-box" data-name="Xiaomi 13 Pro">
+  <h2>Xiaomi 13 Pro</h2>
+  <ul>
+    <li><strong>Processador:</strong> Qualcomm Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>GPU:</strong> Adreno 740</li>
+    <li><strong>RAM:</strong> 8 GB / 12 GB LPDDR5</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB UFS 4.0</li>
+    <li><strong>Tela:</strong> 6.73" AMOLED, QHD+, 120 Hz, HDR10+</li>
+    <li><strong>Bateria:</strong> 4.820 mAh, carregamento rápido 120W</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP (Leica) wide + 50 MP telefoto + 50 MP ultra-wide</li>
+    <li><strong>Sistema Operacional:</strong> MIUI 14, baseado em Android 13</li>
+    <li><strong>Antutu Score:</strong> ~1,150,000+</li>
+    <li><strong>Lançamento:</strong> Dezembro 2022</li>
+    <li><strong>Outros:</strong> Sensor de impressão ultrassônico, alto-falantes estéreo Harman Kardon</li>
+  </ul>
+</div>
+
+<!-- Samsung Galaxy Z Fold5 -->
+<div class="game-box" data-name="Samsung Galaxy Z Fold5">
+  <h2>Samsung Galaxy Z Fold5</h2>
+  <ul>
+    <li><strong>Processador:</strong> Qualcomm Snapdragon 8 Gen 2 (4nm, 8 núcleos)</li>
+    <li><strong>GPU:</strong> Adreno 740</li>
+    <li><strong>RAM:</strong> 12 GB LPDDR5</li>
+    <li><strong>Armazenamento:</strong> 256 GB / 512 GB / 1 TB UFS 4.0</li>
+    <li><strong>Tela:</strong> 7.6" Foldable Dynamic AMOLED 2X, 120 Hz (interna) + 6.2" AMOLED, 120 Hz (externa)</li>
+    <li><strong>Bateria:</strong> 4.400 mAh, carregamento rápido 25W</li>
+    <li><strong>Câmeras:</strong> Tripla 50 MP wide + 10 MP telefoto + 12 MP ultra-wide</li>
+    <li><strong>Sistema Operacional:</strong> Android 13, One UI 5.1</li>
+    <li><strong>Antutu Score:</strong> ~1,150,000+</li>
+    <li><strong>Lançamento:</strong> Agosto 2023</li>
+    <li><strong>Outros:</strong> Dobradiça reforçada, multitarefa avançada, suporte S-Pen</li>
+  </ul>
+</div>
+
+<!-- Google Pixel 7 Pro -->
+<div class="game-box" data-name="Google Pixel 7 Pro">
+  <h2>Google Pixel 7 Pro</h2>
+  <ul>
+    <li><strong>Processador:</strong> Google Tensor G2 (4nm, 8 núcleos)</li>
+    <li><strong>GPU:</strong> Mali-G710 MP7</li>
+    <li><strong>RAM:</strong> 12 GB LPDDR5</li>
+    <li><strong>Armazenamento:</strong> 128 GB / 256 GB / 512 GB UFS 3.1</li>
+    <li><strong>Tela:</strong> 6.7" LTPO OLED, QHD+, 120 Hz</li>
+    <li><strong>Bateria:</strong> ~5.000 mAh, carregamento rápido 30W, carregamento sem fio 23W</li>
+    <li><strong>Câmeras:</strong> 50 MP wide + 48 MP telefoto 5x + 12 MP ultra-wide</li>
+    <li><strong>Sistema Operacional:</strong> Android 13</li>
+    <li><strong>Antutu Score:</strong> ~900,000+</li>
+    <li><strong>Lançamento:</strong> Outubro 2022</li>
+    <li><strong>Outros:</strong> IP68, Titan M2 security chip</li>
+  </ul>
+</div>
+            
+            
+            <div class="game-box" data-name="Apple A17 Pro">
+  <h2>Apple A17 Pro</h2>
+  <ul>
+    <li>Arquitetura: 3nm</li>
+    <li>Núcleos: 6 (2 desempenho + 4 eficiência)</li>
+    <li>GPU: 6-core personalizada Apple</li>
+    <li>Frequência máxima: ~3.78 GHz</li>
+    <li>Lançamento: 2023</li>
+    <li><strong>Antutu Score:</strong> ~1,200,000+</li>
+  </ul>
+</div>
+<div class="game-box" data-name="Qualcomm Snapdragon 8 Gen 1">
+  <h2>Snapdragon 8 Gen 1</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (1 Cortex-X2 + 3 Cortex-A710 + 4 Cortex-A510)</li>
+    <li>GPU: Adreno 730</li>
+    <li>Frequência máxima: até 3.0 GHz</li>
+    <li>Lançamento: 2021</li>
+    <li><strong>Antutu Score:</strong> ~1,000,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Samsung Exynos 2100">
+  <h2>Exynos 2100</h2>
+  <ul>
+    <li>Arquitetura: 5nm</li>
+    <li>Núcleos: 8 (1 Cortex-X1 + 3 Cortex-A78 + 4 Cortex-A55)</li>
+    <li>GPU: Mali-G78 MP14</li>
+    <li>Frequência máxima: 2.9 GHz</li>
+    <li>Lançamento: 2021</li>
+    <li><strong>Antutu Score:</strong> ~900,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="MediaTek Dimensity 9200">
+  <h2>Dimensity 9200</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (1 Cortex-X3 + 3 Cortex-A715 + 4 Cortex-A510)</li>
+    <li>GPU: Immortalis-G715</li>
+    <li>Frequência máxima: 3.05 GHz</li>
+    <li>Lançamento: 2023</li>
+    <li><strong>Antutu Score:</strong> ~1,050,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Google Tensor G2">
+  <h2>Google Tensor G2</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (2 Cortex-X1 + 2 Cortex-A76 + 4 Cortex-A55)</li>
+    <li>GPU: Mali-G710 MP7</li>
+    <li>Frequência máxima: ~2.85 GHz</li>
+    <li>Lançamento: 2023</li>
+    <li><strong>Antutu Score:</strong> ~900,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Apple A15 Bionic">
+  <h2>Apple A15 Bionic</h2>
+  <ul>
+    <li>Arquitetura: 5nm</li>
+    <li>Núcleos: 6 (2 desempenho + 4 eficiência)</li>
+    <li>GPU: 4-core / 5-core (varia por modelo)</li>
+    <li>Frequência máxima: ~3.23 GHz</li>
+    <li>Lançamento: 2021</li>
+    <li><strong>Antutu Score:</strong> ~850,000+</li>
+  </ul>
+</div>
+<div class="game-box" data-name="Qualcomm Snapdragon 8 Gen 2">
+  <h2>Snapdragon 8 Gen 2</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (1 Prime Cortex-X3 + 4 Performance + 3 Eficiência)</li>
+    <li>GPU: Adreno 740</li>
+    <li>Frequência máxima: até 3.2 GHz</li>
+    <li>Lançamento: 2022</li>
+    <li><strong>Antutu Score:</strong> ~1,150,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Samsung Exynos 2200">
+  <h2>Exynos 2200</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (1 Cortex-X2 + 3 Cortex-A710 + 4 Cortex-A510)</li>
+    <li>GPU: Xclipse 920 (AMD RDNA 2)</li>
+    <li>Frequência máxima: 2.8 GHz</li>
+    <li>Lançamento: 2022</li>
+    <li><strong>Antutu Score:</strong> ~1,100,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="MediaTek Dimensity 9200+">
+  <h2>Dimensity 9200+</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 8 (1 Cortex-X3 + 3 Cortex-A715 + 4 Cortex-A510)</li>
+    <li>GPU: Immortalis-G715</li>
+    <li>Frequência máxima: 3.35 GHz</li>
+    <li>Lançamento: 2023</li>
+    <li><strong>Antutu Score:</strong> ~1,100,000+</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Apple A16 Bionic">
+  <h2>Apple A16 Bionic</h2>
+  <ul>
+    <li>Arquitetura: 4nm</li>
+    <li>Núcleos: 6 (2 desempenho + 4 eficiência)</li>
+    <li>GPU: 5-core Apple</li>
+    <li>Frequência máxima: ~3.46 GHz</li>
+    <li>Lançamento: 2022</li>
+    <li><strong>Antutu Score:</strong> ~1,100,000+</li>
+  </ul>
+</div>
+            
+            <!-- Ryzen 7000 Series -->
+<div class="game-box" data-name="AMD Ryzen 9 7950X">
+  <h2>AMD Ryzen 9 7950X</h2>
+  <ul>
+    <li>Núcleos: 16</li>
+    <li>Threads: 32</li>
+    <li>Clock base: 4.5 GHz</li>
+    <li>Boost: 5.7 GHz</li>
+    <li>Cache L3: 64 MB</li>
+    <li>TDP: 170W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 9 7900X">
+  <h2>AMD Ryzen 9 7900X</h2>
+  <ul>
+    <li>Núcleos: 12</li>
+    <li>Threads: 24</li>
+    <li>Clock base: 4.7 GHz</li>
+    <li>Boost: 5.6 GHz</li>
+    <li>Cache L3: 64 MB</li>
+    <li>TDP: 170W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 7 7700X">
+  <h2>AMD Ryzen 7 7700X</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Clock base: 4.5 GHz</li>
+    <li>Boost: 5.4 GHz</li>
+    <li>Cache L3: 32 MB</li>
+    <li>TDP: 105W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 5 7600X">
+  <h2>AMD Ryzen 5 7600X</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Clock base: 4.7 GHz</li>
+    <li>Boost: 5.3 GHz</li>
+    <li>Cache L3: 32 MB</li>
+    <li>TDP: 105W</li>
+  </ul>
+</div>
+
+<!-- Ryzen 5000 Series -->
+<div class="game-box" data-name="AMD Ryzen 9 5950X">
+  <h2>AMD Ryzen 9 5950X</h2>
+  <ul>
+    <li>Núcleos: 16</li>
+    <li>Threads: 32</li>
+    <li>Clock base: 3.4 GHz</li>
+    <li>Boost: 4.9 GHz</li>
+    <li>Cache L3: 64 MB</li>
+    <li>TDP: 105W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 9 5900X">
+  <h2>AMD Ryzen 9 5900X</h2>
+  <ul>
+    <li>Núcleos: 12</li>
+    <li>Threads: 24</li>
+    <li>Clock base: 3.7 GHz</li>
+    <li>Boost: 4.8 GHz</li>
+    <li>Cache L3: 64 MB</li>
+    <li>TDP: 105W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 7 5800X">
+  <h2>AMD Ryzen 7 5800X</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Clock base: 3.8 GHz</li>
+    <li>Boost: 4.7 GHz</li>
+    <li>Cache L3: 32 MB</li>
+    <li>TDP: 105W</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Ryzen 5 5600X">
+  <h2>AMD Ryzen 5 5600X</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Clock base: 3.7 GHz</li>
+    <li>Boost: 4.6 GHz</li>
+    <li>Cache L3: 32 MB</li>
+    <li>TDP: 65W</li>
+  </ul>
+</div>
+            <div class="game-box" data-name="NVIDIA GeForce GTX 750 Ti">
+  <h2>GTX 750 Ti</h2>
+  <ul>
+    <li>Arquitetura: Maxwell</li>
+    <li>CUDA Cores: 640</li>
+    <li>Memória: 2 GB GDDR5</li>
+    <li>Clock Boost: 1.16 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 86.4 GB/s</li>
+    <li>TDP: 60W</li>
+    <li>Lançamento: 2014</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 950">
+  <h2>GTX 950</h2>
+  <ul>
+    <li>Arquitetura: Maxwell</li>
+    <li>CUDA Cores: 768</li>
+    <li>Memória: 2 GB GDDR5</li>
+    <li>Clock Boost: 1.19 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 105 GB/s</li>
+    <li>TDP: 90W</li>
+    <li>Lançamento: 2015</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 960">
+  <h2>GTX 960</h2>
+  <ul>
+    <li>Arquitetura: Maxwell</li>
+    <li>CUDA Cores: 1024</li>
+    <li>Memória: 2 ou 4 GB GDDR5</li>
+    <li>Clock Boost: 1.28 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 112 GB/s</li>
+    <li>TDP: 120W</li>
+    <li>Lançamento: 2015</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 970">
+  <h2>GTX 970</h2>
+  <ul>
+    <li>Arquitetura: Maxwell</li>
+    <li>CUDA Cores: 1664</li>
+    <li>Memória: 4 GB GDDR5</li>
+    <li>Clock Boost: 1.18 GHz</li>
+    <li>Interface Memória: 256-bit</li>
+    <li>Largura de Banda: 224 GB/s</li>
+    <li>TDP: 145W</li>
+    <li>Lançamento: 2014</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 980">
+  <h2>GTX 980</h2>
+  <ul>
+    <li>Arquitetura: Maxwell</li>
+    <li>CUDA Cores: 2048</li>
+    <li>Memória: 4 GB GDDR5</li>
+    <li>Clock Boost: 1.32 GHz</li>
+    <li>Interface Memória: 256-bit</li>
+    <li>Largura de Banda: 224 GB/s</li>
+    <li>TDP: 165W</li>
+    <li>Lançamento: 2014</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1050">
+  <h2>GTX 1050</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 640</li>
+    <li>Memória: 2 GB GDDR5</li>
+    <li>Clock Boost: 1.39 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 112 GB/s</li>
+    <li>TDP: 75W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1050 Ti">
+  <h2>GTX 1050 Ti</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 768</li>
+    <li>Memória: 4 GB GDDR5</li>
+    <li>Clock Boost: 1.39 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 112 GB/s</li>
+    <li>TDP: 75W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1060 3GB">
+  <h2>GTX 1060 3GB</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 1152</li>
+    <li>Memória: 3 GB GDDR5</li>
+    <li>Clock Boost: 1.70 GHz</li>
+    <li>Interface Memória: 192-bit</li>
+    <li>Largura de Banda: 192 GB/s</li>
+    <li>TDP: 120W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1060 6GB">
+  <h2>GTX 1060 6GB</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 1280</li>
+    <li>Memória: 6 GB GDDR5</li>
+    <li>Clock Boost: 1.70 GHz</li>
+    <li>Interface Memória: 192-bit</li>
+    <li>Largura de Banda: 192 GB/s</li>
+    <li>TDP: 120W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1070">
+  <h2>GTX 1070</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 1920</li>
+    <li>Memória: 8 GB GDDR5</li>
+    <li>Clock Boost: 1.68 GHz</li>
+    <li>Interface Memória: 256-bit</li>
+    <li>Largura de Banda: 256 GB/s</li>
+    <li>TDP: 150W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1080">
+  <h2>GTX 1080</h2>
+  <ul>
+    <li>Arquitetura: Pascal</li>
+    <li>CUDA Cores: 2560</li>
+    <li>Memória: 8 GB GDDR5X</li>
+    <li>Clock Boost: 1.73 GHz</li>
+    <li>Interface Memória: 256-bit</li>
+    <li>Largura de Banda: 320 GB/s</li>
+    <li>TDP: 180W</li>
+    <li>Lançamento: 2016</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1650">
+  <h2>GTX 1650</h2>
+  <ul>
+    <li>Arquitetura: Turing</li>
+    <li>CUDA Cores: 896</li>
+    <li>Memória: 4 GB GDDR5</li>
+    <li>Clock Boost: 1.66 GHz</li>
+    <li>Interface Memória: 128-bit</li>
+    <li>Largura de Banda: 128 GB/s</li>
+    <li>TDP: 75W</li>
+    <li>Lançamento: 2019</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce GTX 1660 Ti">
+  <h2>GTX 1660 Ti</h2>
+  <ul>
+    <li>Arquitetura: Turing</li>
+    <li>CUDA Cores: 1536</li>
+    <li>Memória: 6 GB GDDR6</li>
+    <li>Clock Boost: 1.77 GHz</li>
+    <li>Interface Memória: 192-bit</li>
+    <li>Largura de Banda: 288 GB/s</li>
+    <li>TDP: 120W</li>
+    <li>Lançamento: 2019</li>
+  </ul>
+</div>
+             <div class="game-box" data-name="Intel Core i9-13900K">
+  <h2>Intel Core i9-13900K</h2>
+  <ul>
+    <li>Núcleos: 24 (8P + 16E)</li>
+    <li>Threads: 32</li>
+    <li>Frequência Turbo: 5.8 GHz</li>
+    <li>Cache L3: 36 MB</li>
+    <li>TDP: 125W (base), até 253W (turbo)</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+<div class="game-box" data-name="Intel Core i9-10900K">
+  <h2>Intel Core i9-10900K</h2>
+  <ul>
+    <li>Núcleos: 10</li>
+    <li>Threads: 20</li>
+    <li>Frequência Turbo: 5.3 GHz</li>
+    <li>Cache L3: 20 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-10700K">
+  <h2>Intel Core i7-10700K</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Frequência Turbo: 5.1 GHz</li>
+    <li>Cache L3: 16 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-10600K">
+  <h2>Intel Core i5-10600K</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Frequência Turbo: 4.8 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i9-9900K">
+  <h2>Intel Core i9-9900K</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Frequência Turbo: 5.0 GHz</li>
+    <li>Cache L3: 16 MB</li>
+    <li>TDP: 95W</li>
+    <li>Ano: 2018</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-9700K">
+  <h2>Intel Core i7-9700K</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 8</li>
+    <li>Frequência Turbo: 4.9 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 95W</li>
+    <li>Ano: 2018</li>
+  </ul>
+</div>
+<div class="game-box" data-name="Intel Arc A770">
+    <h2>Intel Arc A770</h2>
+    <ul>
+        <li>Memória: 16 GB GDDR6</li>
+        <li>Clock Boost: 2.1 GHz</li>
+        <li>Xe-Cores: 32</li>
+        <li>Processo: 6 nm</li>
+        <li>TDP: 225 W</li>
+        <li>Ano: 2022</li>
+    </ul>
+</div>
+
+<div class="game-box" data-name="Intel Arc A750">
+    <h2>Intel Arc A750</h2>
+    <ul>
+        <li>Memória: 8 GB GDDR6</li>
+        <li>Clock Boost: 2.0 GHz</li>
+        <li>Xe-Cores: 28</li>
+        <li>Processo: 6 nm</li>
+        <li>TDP: 175 W</li>
+        <li>Ano: 2022</li>
+    </ul>
+</div>
+
+<div class="game-box" data-name="Intel UHD Graphics 770">
+    <h2>Intel UHD Graphics 770 (integrada)</h2>
+    <ul>
+        <li>Unidades de Execução: 32</li>
+        <li>Base Clock: 350 MHz</li>
+        <li>Boost Clock: 1.35 GHz</li>
+        <li>Memória Compartilhada</li>
+        <li>Processo: 10 nm</li>
+        <li>Ano: 2021</li>
+    </ul>
+</div>
+
+<div class="game-box" data-name="Intel Iris Xe Graphics">
+    <h2>Intel Iris Xe Graphics (integrada)</h2>
+    <ul>
+        <li>Unidades de Execução: 96</li>
+        <li>Base Clock: 400 MHz</li>
+        <li>Boost Clock: 1.3 GHz</li>
+        <li>Memória Compartilhada</li>
+        <li>Processo: 10 nm</li>
+        <li>Ano: 2020</li>
+    </ul>
+</div>
+
+<div class="game-box" data-name="Intel Iris Xe Max">
+    <h2>Intel Iris Xe Max</h2>
+    <ul>
+        <li>Memória: 4 GB LPDDR4X</li>
+        <li>Clock Boost: 1.65 GHz</li>
+        <li>Unidades de Execução: 96</li>
+        <li>Processo: 10 nm</li>
+        <li>TDP: 25 W</li>
+        <li>Ano: 2021</li>
+    </ul>
+</div>
+<div class="game-box" data-name="Intel Core i5-9600K">
+  <h2>Intel Core i5-9600K</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 6</li>
+    <li>Frequência Turbo: 4.6 GHz</li>
+    <li>Cache L3: 9 MB</li>
+    <li>TDP: 95W</li>
+    <li>Ano: 2018</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-8700K">
+  <h2>Intel Core i7-8700K</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Frequência Turbo: 4.7 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 95W</li>
+    <li>Ano: 2017</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-8600K">
+  <h2>Intel Core i5-8600K</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 6</li>
+    <li>Frequência Turbo: 4.3 GHz</li>
+    <li>Cache L3: 9 MB</li>
+    <li>TDP: 95W</li>
+    <li>Ano: 2017</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-7700K">
+  <h2>Intel Core i7-7700K</h2>
+  <ul>
+    <li>Núcleos: 4</li>
+    <li>Threads: 8</li>
+    <li>Frequência Turbo: 4.5 GHz</li>
+    <li>Cache L3: 8 MB</li>
+    <li>TDP: 91W</li>
+    <li>Ano: 2017</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-7600K">
+  <h2>Intel Core i5-7600K</h2>
+  <ul>
+    <li>Núcleos: 4</li>
+    <li>Threads: 4</li>
+    <li>Frequência Turbo: 4.1 GHz</li>
+    <li>Cache L3: 6 MB</li>
+    <li>TDP: 91W</li>
+    <li>Ano: 2017</li>
+  </ul>
+</div>
+<div class="game-box" data-name="Intel Core i7-13700K">
+  <h2>Intel Core i7-13700K</h2>
+  <ul>
+    <li>Núcleos: 16 (8P + 8E)</li>
+    <li>Threads: 24</li>
+    <li>Frequência Turbo: 5.4 GHz</li>
+    <li>Cache L3: 30 MB</li>
+    <li>TDP: 125W (base), até 253W (turbo)</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-13600K">
+  <h2>Intel Core i5-13600K</h2>
+  <ul>
+    <li>Núcleos: 14 (6P + 8E)</li>
+    <li>Threads: 20</li>
+    <li>Frequência Turbo: 5.1 GHz</li>
+    <li>Cache L3: 24 MB</li>
+    <li>TDP: 125W (base), até 181W (turbo)</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i9-12900K">
+  <h2>Intel Core i9-12900K</h2>
+  <ul>
+    <li>Núcleos: 16 (8P + 8E)</li>
+    <li>Threads: 24</li>
+    <li>Frequência Turbo: 5.2 GHz</li>
+    <li>Cache L3: 30 MB</li>
+    <li>TDP: 125W (base), até 241W (turbo)</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-12700K">
+  <h2>Intel Core i7-12700K</h2>
+  <ul>
+    <li>Núcleos: 12 (8P + 4E)</li>
+    <li>Threads: 20</li>
+    <li>Frequência Turbo: 5.0 GHz</li>
+    <li>Cache L3: 25 MB</li>
+    <li>TDP: 125W (base), até 190W (turbo)</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-12600K">
+  <h2>Intel Core i5-12600K</h2>
+  <ul>
+    <li>Núcleos: 10 (6P + 4E)</li>
+    <li>Threads: 16</li>
+    <li>Frequência Turbo: 4.9 GHz</li>
+    <li>Cache L3: 20 MB</li>
+    <li>TDP: 125W (base), até 150W (turbo)</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i9-11900K">
+  <h2>Intel Core i9-11900K</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Frequência Turbo: 5.3 GHz</li>
+    <li>Cache L3: 16 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i7-11700K">
+  <h2>Intel Core i7-11700K</h2>
+  <ul>
+    <li>Núcleos: 8</li>
+    <li>Threads: 16</li>
+    <li>Frequência Turbo: 5.0 GHz</li>
+    <li>Cache L3: 16 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-11600K">
+  <h2>Intel Core i5-11600K</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Frequência Turbo: 4.9 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 125W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i3-12100F">
+  <h2>Intel Core i3-12100F</h2>
+  <ul>
+    <li>Núcleos: 4 Performance</li>
+    <li>Threads: 8</li>
+    <li>Frequência Turbo: 4.3 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 58W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="Intel Core i5-11400F">
+  <h2>Intel Core i5-11400F</h2>
+  <ul>
+    <li>Núcleos: 6</li>
+    <li>Threads: 12</li>
+    <li>Frequência Turbo: 4.4 GHz</li>
+    <li>Cache L3: 12 MB</li>
+    <li>TDP: 65W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+            <!-- NVIDIA -->
+<div class="game-box" data-name="NVIDIA GeForce RTX 4090">
+  <h2>NVIDIA GeForce RTX 4090</h2>
+  <ul>
+    <li>Memória: 24 GB GDDR6X</li>
+    <li>Clock Boost: 2.52 GHz</li>
+    <li>TDP: 450W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4080">
+  <h2>NVIDIA GeForce RTX 4080</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6X</li>
+    <li>Clock Boost: 2.51 GHz</li>
+    <li>TDP: 320W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4070 Ti">
+  <h2>NVIDIA GeForce RTX 4070 Ti</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6X</li>
+    <li>Clock Boost: 2.61 GHz</li>
+    <li>TDP: 285W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4070">
+  <h2>NVIDIA GeForce RTX 4070</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6X</li>
+    <li>Clock Boost: 2.47 GHz</li>
+    <li>TDP: 200W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4060 Ti 16GB">
+  <h2>NVIDIA GeForce RTX 4060 Ti 16GB</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.54 GHz</li>
+    <li>TDP: 220W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4060 Ti 8GB">
+  <h2>NVIDIA GeForce RTX 4060 Ti 8GB</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.31 GHz</li>
+    <li>TDP: 220W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4060">
+  <h2>NVIDIA GeForce RTX 4060</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.13 GHz</li>
+    <li>TDP: 115W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 4050">
+  <h2>NVIDIA GeForce RTX 4050</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.0 GHz (estimado)</li>
+    <li>TDP: ~75W (estimado)</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3090 Ti">
+  <h2>NVIDIA GeForce RTX 3090 Ti</h2>
+  <ul>
+    <li>Memória: 24 GB GDDR6X</li>
+    <li>Clock Boost: 1.86 GHz</li>
+    <li>TDP: 450W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3090">
+  <h2>NVIDIA GeForce RTX 3090</h2>
+  <ul>
+    <li>Memória: 24 GB GDDR6X</li>
+    <li>Clock Boost: 1.70 GHz</li>
+    <li>TDP: 350W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3080 Ti">
+  <h2>NVIDIA GeForce RTX 3080 Ti</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6X</li>
+    <li>Clock Boost: 1.67 GHz</li>
+    <li>TDP: 350W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3080 10GB">
+  <h2>NVIDIA GeForce RTX 3080 10GB</h2>
+  <ul>
+    <li>Memória: 10 GB GDDR6X</li>
+    <li>Clock Boost: 1.71 GHz</li>
+    <li>TDP: 320W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3080 12GB">
+  <h2>NVIDIA GeForce RTX 3080 12GB</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6X</li>
+    <li>Clock Boost: 1.80 GHz</li>
+    <li>TDP: 350W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3070 Ti">
+  <h2>NVIDIA GeForce RTX 3070 Ti</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6X</li>
+    <li>Clock Boost: 1.77 GHz</li>
+    <li>TDP: 290W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3070">
+  <h2>NVIDIA GeForce RTX 3070</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 1.73 GHz</li>
+    <li>TDP: 220W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3060 Ti">
+  <h2>NVIDIA GeForce RTX 3060 Ti</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 1.67 GHz</li>
+    <li>TDP: 200W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="NVIDIA GeForce RTX 3060">
+  <h2>NVIDIA GeForce RTX 3060</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6</li>
+    <li>Clock Boost: 1.78 GHz</li>
+    <li>TDP: 170W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<!-- AMD -->
+<div class="game-box" data-name="AMD Radeon RX 7900 XTX">
+  <h2>AMD Radeon RX 7900 XTX</h2>
+  <ul>
+    <li>Memória: 24 GB GDDR6</li>
+    <li>Clock Boost: 2.5 GHz</li>
+    <li>TDP: 355W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 7900 XT">
+  <h2>AMD Radeon RX 7900 XT</h2>
+  <ul>
+    <li>Memória: 20 GB GDDR6</li>
+    <li>Clock Boost: 2.4 GHz</li>
+    <li>TDP: 300W</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 7800 XT">
+  <h2>AMD Radeon RX 7800 XT</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.5 GHz (estimado)</li>
+    <li>TDP: 230W (estimado)</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 7700 XT">
+  <h2>AMD Radeon RX 7700 XT</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6</li>
+    <li>Clock Boost: 2.4 GHz (estimado)</li>
+    <li>TDP: 175W (estimado)</li>
+    <li>Ano: 2023</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6950 XT">
+  <h2>AMD Radeon RX 6950 XT</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.31 GHz</li>
+    <li>TDP: 335W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6900 XT">
+  <h2>AMD Radeon RX 6900 XT</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.25 GHz</li>
+    <li>TDP: 300W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6800 XT">
+  <h2>AMD Radeon RX 6800 XT</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.25 GHz</li>
+    <li>TDP: 300W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6800">
+  <h2>AMD Radeon RX 6800</h2>
+  <ul>
+    <li>Memória: 16 GB GDDR6</li>
+    <li>Clock Boost: 2.1 GHz</li>
+    <li>TDP: 250W</li>
+    <li>Ano: 2020</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6750 XT">
+  <h2>AMD Radeon RX 6750 XT</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6</li>
+    <li>Clock Boost: 2.5 GHz</li>
+    <li>TDP: 250W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6700 XT">
+  <h2>AMD Radeon RX 6700 XT</h2>
+  <ul>
+    <li>Memória: 12 GB GDDR6</li>
+    <li>Clock Boost: 2.58 GHz</li>
+    <li>TDP: 230W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6650 XT">
+  <h2>AMD Radeon RX 6650 XT</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.6 GHz</li>
+    <li>TDP: 180W</li>
+    <li>Ano: 2022</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6600 XT">
+  <h2>AMD Radeon RX 6600 XT</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.59 GHz</li>
+    <li>TDP: 160W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+
+<div class="game-box" data-name="AMD Radeon RX 6600">
+  <h2>AMD Radeon RX 6600</h2>
+  <ul>
+    <li>Memória: 8 GB GDDR6</li>
+    <li>Clock Boost: 2.49 GHz</li>
+    <li>TDP: 132W</li>
+    <li>Ano: 2021</li>
+  </ul>
+</div>
+            
+            <div class="game-box" data-name="NVIDIA RTX 3060 Ti">
+                <h2>NVIDIA RTX 3060 Ti</h2>
+                <ul>
+                    <li>Memória: 8GB GDDR6</li>
+                    <li>Clock Boost: 1665 MHz</li>
+                    <li>Núcleos CUDA: 4864</li>
+                    <li>Interface: 256-bit</li>
+                    <li>TDP: 200W</li>
+                    <li>Ano: 2020</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="NVIDIA GeForce RTX 3070 Ti">
+                <h2>NVIDIA GeForce RTX 3070 Ti</h2>
+                <ul>
+                    <li>Memória: 8 GB GDDR6X</li>
+                    <li>Clock Boost: 1.77 GHz</li>
+                    <li>Processo: 8 nm</li>
+                    <li>TDP: 290W</li>
+                    <li>Ano: 2021</li>
+                    <li>Preço sugerido: US$ 599</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="AMD Radeon RX 6700 XT">
+                <h2>AMD Radeon RX 6700 XT</h2>
+                <ul>
+                    <li>Memória: 12 GB GDDR6</li>
+                    <li>Clock Boost: 2.58 GHz</li>
+                    <li>Processo: 7 nm</li>
+                    <li>TDP: 230W</li>
+                    <li>Ano: 2021</li>
+                    <li>Preço sugerido: US$ 479</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="NVIDIA GeForce RTX 2060">
+                <h2>NVIDIA GeForce RTX 2060</h2>
+                <ul>
+                    <li>Memória: 6 GB GDDR6</li>
+                    <li>Clock Boost: 1.68 GHz</li>
+                    <li>Processo: 12 nm</li>
+                    <li>TDP: 160W</li>
+                    <li>Ano: 2019</li>
+                    <li>Preço sugerido: US$ 349</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="AMD Radeon RX 6600 XT">
+                <h2>AMD Radeon RX 6600 XT</h2>
+                <ul>
+                    <li>Memória: 8 GB GDDR6</li>
+                    <li>Clock Boost: 2.59 GHz</li>
+                    <li>Processo: 7 nm</li>
+                    <li>TDP: 160W</li>
+                    <li>Ano: 2021</li>
+                    <li>Preço sugerido: US$ 379</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Intel Core i3-12100F">
+                <h2>Intel Core i3-12100F</h2>
+                <ul>
+                    <li>Núcleos: 4 (Performance)</li>
+                    <li>Threads: 8</li>
+                    <li>Frequência Turbo: 4.3 GHz</li>
+                    <li>Processo: Intel 7 (10 nm)</li>
+                    <li>TDP: 58W</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="AMD Ryzen 3 4100">
+                <h2>AMD Ryzen 3 4100</h2>
+                <ul>
+                    <li>Núcleos: 4</li>
+                    <li>Threads: 8</li>
+                    <li>Frequência Turbo: 4.0 GHz</li>
+                    <li>Processo: 7 nm</li>
+                    <li>Cache L3: 4 MB</li>
+                    <li>TDP: 65W</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="WD Black SN850X 1TB">
+                <h2>WD Black SN850X 1TB</h2>
+                <ul>
+                    <li>Tipo: NVMe PCIe 4.0</li>
+                    <li>Leitura Seq.: até 7300 MB/s</li>
+                    <li>Gravação Seq.: até 6300 MB/s</li>
+                    <li>Memória NAND: TLC</li>
+                    <li>TBW: 600 TB</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Kingston Fury Renegade DDR5 64GB 6400MHz">
+                <h2>Kingston Fury Renegade DDR5 64GB 6400MHz</h2>
+                <ul>
+                    <li>Capacidade: 2×32 GB</li>
+                    <li>Velocidade: 6400 MHz</li>
+                    <li>Latência: CL32</li>
+                    <li>Tipo: DDR5</li>
+                    <li>Perfis: Intel XMP 3.0</li>
+                    <li>Ano: 2023</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="ASUS ROG Strix Z790-E Gaming">
+                <h2>ASUS ROG Strix Z790-E Gaming</h2>
+                <ul>
+                    <li>Socket: LGA 1700</li>
+                    <li>Chipset: Intel Z790</li>
+                    <li>Suporte RAM: DDR5 até 7800 MHz</li>
+                    <li>PCIe: 5.0</li>
+                    <li>Slots M.2: 5</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="MSI MPG B550 Gaming Edge WiFi">
+                <h2>MSI MPG B550 Gaming Edge WiFi</h2>
+                <ul>
+                    <li>Socket: AM4</li>
+                    <li>Chipset: AMD B550</li>
+                    <li>Suporte RAM: DDR4 até 5100 MHz</li>
+                    <li>PCIe: 4.0</li>
+                    <li>Slots M.2: 2</li>
+                    <li>Ano: 2020</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Intel Core i7-11700K">
+                <h2>Intel Core i7-11700K</h2>
+                <ul>
+                    <li>Núcleos: 8</li>
+                    <li>Threads: 16</li>
+                    <li>Frequência Turbo: 5.0 GHz</li>
+                    <li>Cache L3: 16 MB</li>
+                    <li>TDP: 125W</li>
+                    <li>Ano: 2021</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="AMD Radeon RX 6800 XT">
+                <h2>AMD Radeon RX 6800 XT</h2>
+                <ul>
+                    <li>Memória: 16GB GDDR6</li>
+                    <li>Clock Boost: 2250 MHz</li>
+                    <li>Stream Processors: 4608</li>
+                    <li>Interface: 256-bit</li>
+                    <li>TDP: 300W</li>
+                    <li>Ano: 2020</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Kingston Fury Beast DDR4 16GB 3200MHz">
+                <h2>Kingston Fury Beast DDR4 16GB 3200MHz</h2>
+                <ul>
+                    <li>Capacidade: 2×8 GB</li>
+                    <li>Velocidade: 3200 MHz</li>
+                    <li>Latência: CL16</li>
+                    <li>Tipo: DDR4</li>
+                    <li>Ano: 2021</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="ASUS ROG Strix B550-F Gaming">
+                <h2>ASUS ROG Strix B550-F Gaming</h2>
+                <ul>
+                    <li>Chipset: AMD B550</li>
+                    <li>Suporte: Ryzen 3000/5000</li>
+                    <li>Memória: Até 128 GB DDR4</li>
+                    <li>Slots PCIe: 1× PCIe 4.0 x16</li>
+                    <li>Rede: Intel 2.5Gb Ethernet</li>
+                    <li>Ano: 2020</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Intel Arc A770">
+                <h2>Intel Arc A770</h2>
+                <ul>
+                    <li>Memória: 16GB GDDR6</li>
+                    <li>Clock Boost: 2100 MHz</li>
+                    <li>Xe-Cores: 32</li>
+                    <li>Interface: 256-bit</li>
+                    <li>TDP: 225W</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="MSI MAG B660 Tomahawk WiFi DDR4">
+                <h2>MSI MAG B660 Tomahawk WiFi DDR4</h2>
+                <ul>
+                    <li>Chipset: Intel B660</li>
+                    <li>Suporte: Intel 12ª Geração</li>
+                    <li>Memória: Até 128 GB DDR4</li>
+                    <li>Slots PCIe: 1× PCIe 5.0 x16</li>
+                    <li>Rede: 2.5Gb LAN + Wi-Fi 6</li>
+                    <li>Ano: 2022</li>
+                </ul>
+            </div>
+
+            <div class="game-box" data-name="Intel Core i9-12900K">
+                <h2>Intel Core i9-12900K</h2>
+                <ul>
+                    <li>Núcleos: 16 (8P + 8E)</li>
+                    <li>Threads: 24</li>
+                    <li>Frequência Turbo: 5.2 GHz</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        function searchItem() {
+            let input = document.getElementById('searchBar').value.toLowerCase();
+            let boxes = document.querySelectorAll('.game-box');
+
+            boxes.forEach(box => {
+                let name = box.getAttribute('data-name').toLowerCase();
+                if (name.includes(input) || input === "") {
+                    box.style.display = "block";
+                } else {
+                    box.style.display = "none";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
